@@ -5,7 +5,7 @@ import { Settings } from "lucide-react"
 
 function Header({ currentPath }) {
   const tabs = [
-    { name: "Smart Lists", path: "smart-lists" },
+    { name: "Smart Lists", path: "" },
     { name: "Bulk Actions", path: "bulk-actions" },
     { name: "Tasks", path: "tasks" },
     { name: "Companies", path: "companies" }
