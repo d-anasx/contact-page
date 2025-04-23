@@ -8,7 +8,7 @@ function Header({ currentPath }) {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "halloween")
 
   const tabs = [
-    { name: "Smart Lists", path: "smart-lists" },
+    { name: "Smart Lists", path: "" },
     { name: "Bulk Actions", path: "bulk-actions" },
     { name: "Tasks", path: "tasks" },
     { name: "Companies", path: "companies" },
